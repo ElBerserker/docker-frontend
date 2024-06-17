@@ -27,7 +27,7 @@ const RouteFinder = () => {
     }
 
     try {
-      const response = await axios.get('https://docker-backend-bqs1.onrender.com/route', {
+      const response = await axios.get('https://docker-backend-0o7z.onrender.com/route', {
         params: {
           start_lat: startCoord[0],
           start_lon: startCoord[1],
